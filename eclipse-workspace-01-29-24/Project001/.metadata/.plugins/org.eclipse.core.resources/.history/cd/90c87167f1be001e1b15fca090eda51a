@@ -1,0 +1,15 @@
+package com.sample.demo001;
+
+public class NonDupToMap {
+	
+	private static String [] fruits = {"apple","mango","lichi","anar"};
+	private static String [] fruits01 = {"apple","mango"};
+
+	public static void main(String[] args) {
+		int len = fruits.length;
+		int len01 = fruits01.length;
+		System.out.println(len+"..."+len01);
+
+	}
+
+}

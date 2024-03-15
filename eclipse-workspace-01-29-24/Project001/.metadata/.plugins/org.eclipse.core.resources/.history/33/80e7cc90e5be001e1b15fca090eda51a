@@ -1,0 +1,34 @@
+/**
+ * 
+ */
+package com.sample.demo001;
+
+import java.util.Scanner;
+
+/**
+ * 
+ */
+public class App {
+
+	private static Scanner sc = new Scanner(System.in);
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("Main String // Sub String ....");
+		System.out.println("Enter main String....");
+		String str1 = "TPisTPareTPamTP", str2 = "TP";
+		System.out.println("Count of occurrences of a substring recursively are: "+subsrting_rec(str1, str2));
+
+	}
+
+	static int subsrting_rec(String str, String sub){
+		if (str.contains(sub)){
+			return 1 + subsrting_rec(str.replaceFirst(sub, ""), sub);
+		}
+		return 0;
+	}
+
+
+}

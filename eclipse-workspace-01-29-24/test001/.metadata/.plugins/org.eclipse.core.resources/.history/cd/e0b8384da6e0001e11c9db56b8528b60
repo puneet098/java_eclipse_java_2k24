@@ -1,0 +1,16 @@
+package test;
+//create Custom Exception
+public class CustomException extends Exception {
+
+	/**
+	 * @param message
+	 * @param cause
+	 */
+	public CustomException(String message, Throwable cause) {
+		super(message, cause);
+		// TODO Auto-generated constructor stub
+	}
+	
+	
+
+}

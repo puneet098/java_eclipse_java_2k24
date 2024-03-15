@@ -1,0 +1,10 @@
+package com.sample.demo001;
+
+public class NonDupToMap {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

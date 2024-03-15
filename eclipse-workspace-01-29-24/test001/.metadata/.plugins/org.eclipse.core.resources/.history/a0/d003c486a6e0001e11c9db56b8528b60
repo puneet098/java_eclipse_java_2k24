@@ -1,0 +1,22 @@
+package test;
+//create Custom Exception
+//Below is custom checked exception.
+public class CustomException extends Exception {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -8359920097976154158L;
+
+	/**
+	 * @param message
+	 * @param cause
+	 */
+	public CustomException(String message, Throwable cause) {
+		super(message, cause);
+		// TODO Auto-generated constructor stub
+	}
+	
+	
+
+}

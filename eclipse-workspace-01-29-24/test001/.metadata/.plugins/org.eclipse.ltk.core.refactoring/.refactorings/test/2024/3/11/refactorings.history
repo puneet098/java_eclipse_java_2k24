@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;test.CustomException&apos; to &apos;CustomCheckedException&apos;&#x0D;&#x0A;- Original project: &apos;test&apos;&#x0D;&#x0A;- Original element: &apos;test.CustomException&apos;&#x0D;&#x0A;- Renamed element: &apos;test.CustomCheckedException&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;CustomException&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;test{CustomException.java[CustomException" matchStrategy="1" name="CustomCheckedException" qualified="false" references="true" similarDeclarations="false" stamp="1710271632539" textual="false" version="1.0"/>
+</session>
